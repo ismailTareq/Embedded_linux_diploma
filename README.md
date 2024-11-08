@@ -1,0 +1,1 @@
+# Embedded_linux2024_diploma
