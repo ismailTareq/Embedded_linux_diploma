@@ -5,32 +5,40 @@ This innovative project presents a state-of-the-art voice assistant that does mo
 
 Permit me to give you a summary of the amazing features and capabilities built within Alexa:
 
-🔹Getting the most recent weather information.
+🔹1.Sending the recipient a customized welcome based on the time of day, such as morning or afternoon.
 
-🔹Searching for anything on Google.
+🔹2.Getting the most recent weather information.
 
-🔹Telling jokes for a little giggle.
+🔹3.Searching for anything on Google.
 
-🔹Sending emails.
+🔹4.Telling jokes for a little giggle.
 
-🔹Sending any message to any phone number on WhatsApp Use voice-activated messaging to stay in touch
+🔹5.Sending emails.
 
-🔹Sending a personalized greeting to the user.
+🔹6.Sending any message to any phone number on WhatsApp Use voice-activated messaging to stay in touch.
 
-🔹Playing any song directly from YouTube.
+🔹7.Playing any song directly from YouTube.
 
-🔹Providing the date as of right now.
+🔹8.Supplying the time as of this moment.
 
-🔹Translating between Arabic, English, German.
+🔹9.Gives the current date.
 
-🔹Notifications are sent out every 60 seconds.
+🔹10.Translating between Arabic, English, German.
 
-🔹reminder for the things you would like to be reminded of at a specific moment.
+🔹11.Notifications are sent out every 60 seconds.
 
-🔹Tell you who am I.
+🔹12.Reminder for the things you would like to be reminded of at a specific      moment.
 
-🔹Takes screenshot 
+🔹13.Tell you who am I.
 
-🔹Indicates the five prayers' azan time.
+🔹14.Takes screenshot.
 
-🔹Makes a new file, gives it the name you choose, and allows you to write and read anything in it.
+🔹15.Indicates the five prayers' azan time.
+
+🔹16.Creating new file and you may give it whatever name you choose.
+
+🔹17.Put your thoughts in a designated file by saying the file name.
+
+🔹18. Easily read any particular file you want just say it's name.
+
+🔹19.Fast Wikipedia search.
