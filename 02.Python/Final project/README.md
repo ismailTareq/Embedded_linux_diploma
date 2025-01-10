@@ -5,48 +5,32 @@ This innovative project presents a state-of-the-art voice assistant that does mo
 
 Permit me to give you a summary of the amazing features and capabilities built within Alexa:
 
-1️⃣ "Good morning" command: Start your day on a positive note.
+🔹Getting the most recent weather information.
 
-2️⃣ "What is my name" command: it tells my name .
+🔹Searching for anything on Google.
 
-3️⃣ "Open my GitHub" command: Access your GitHub effortlessly.
+🔹Telling jokes for a little giggle.
 
-4️⃣ "Open ChatGPT" command open chatGPT Website
+🔹Sending emails.
 
-5️⃣ "Open my YouTube channel" command: Seamlessly navigate to your YouTube content.
+🔹Sending any message to any phone number on WhatsApp Use voice-activated messaging to stay in touch
 
-6️⃣ "Open new terminal" command: Initiate a new terminal window effortlessly.
+🔹Sending a personalized greeting to the user.
 
-7️⃣ "Take screenshot" command: Capture screenshots with ease.
+🔹Playing any song directly from YouTube.
 
-8️⃣ "Open any YouTube video you want" command: Explore the vast YouTube library.
+🔹Providing the date as of right now.
 
-9️⃣ "Search on Google" command: Conduct web searches seamlessly.
+🔹Translating between Arabic, English, German.
 
-🔟 "Send message on WhatsApp" command: Stay connected with voice-activated messaging.
+🔹Notifications are sent out every 60 seconds.
 
-1️⃣1️⃣ "Talk about any topic using Wikipedia as a source" command:
+🔹reminder for the things you would like to be reminded of at a specific moment.
 
-1️⃣2️⃣ "Tell me a random joke" command: Lighten your mood with Alexa's humor.
+🔹Tell you who am I.
 
-1️⃣3️⃣ "Tell me the date" command: Stay up-to-date with the current date.
+🔹Takes screenshot 
 
-1️⃣4️⃣ "Tell me the time" command: Get accurate time updates instantly.
+🔹Indicates the five prayers' azan time.
 
-1️⃣5️⃣ "Tell me the weather" command: Access real-time weather information.
-
-1️⃣6️⃣ "Tell me the dollar currency value" command: Stay informed about currency exchange rates.
-
-1️⃣7️⃣ "Tell me Adhan timings" command
-
-1️⃣8️⃣ "Create a new file" command: Generate new files effortlessly.
-
-1️⃣9️⃣ "Write into a file" command: Seamlessly add content to files.
-
-2️⃣0️⃣ "Read from a file" command: Retrieve file contents with ease.
-
-2️⃣1️⃣ "Translate from Arabic to English and vice versa" command: Perform language translations effortlessly.
-
-2️⃣2️⃣ "Download the latest diploma lecture automatically" command: Stay up-to-date with educational materials.
-
-2️⃣3️⃣ "Exit the application" command: Bid farewell to Alexa gracefully.
+🔹Makes a new file, gives it the name you choose, and allows you to write and read anything in it.
