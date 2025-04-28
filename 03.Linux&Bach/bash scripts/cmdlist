@@ -1,4 +1,0 @@
-ls=ls -la
-nm=notify-send "hello ismail"
-dev=lsblk
-yt=firefox "https://www.youtube.com/@SMii7Y"
