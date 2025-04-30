@@ -19,7 +19,7 @@
 ---
 ## Yocto
 ![gitHub](https://github.com/ismailTareq/Embedded_linux2024_diploma/blob/main/00.Content/yocto.png)
-![gitHub](https://github.com/ismailTareq/Embedded_linux2024_diploma/blob/main/00.Content/yocto2.png)
+![gitHub](https://github.com/ismailTareq/Embedded_linux2024_diploma/blob/main/00.Content/yocta2.png)
 ![gitHub](https://github.com/ismailTareq/Embedded_linux2024_diploma/blob/main/00.Content/yocto3.png)
 ---
 ## Device Driver
