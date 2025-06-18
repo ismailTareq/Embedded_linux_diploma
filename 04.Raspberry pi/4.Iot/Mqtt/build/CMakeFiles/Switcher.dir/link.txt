@@ -1,0 +1,1 @@
+/usr/bin/c++  -g CMakeFiles/Switcher.dir/main.cpp.o CMakeFiles/Switcher.dir/publisher.cpp.o -o Switcher  /usr/lib/aarch64-linux-gnu/libpaho-mqttpp3.so /usr/lib/libwiringPi.so /usr/lib/aarch64-linux-gnu/libpaho-mqtt3as.so -lpthread -lssl -lcrypto 

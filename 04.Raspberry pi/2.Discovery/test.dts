@@ -1,0 +1,24 @@
+/dts-v1/;
+/ {
+	model = "testing";
+	compatible = "arm-test";
+	#address-cells = <1>;
+	#size-cells = <1>;
+	node1{
+		compatible = "ismail,node1";
+		me,string-test = "nigga";
+		me,string-list = "hello" , "ismail";
+		me,int-word = <0x11223344>;
+		me,int-word64 = <0x11223344 0x55667788>;
+		me,cell = <2>;
+		child {
+			compatible = "ismail,child";
+			me,array = <1 2 3 4>;
+		};
+	};
+	i2c: node@abcd {
+		compatible = "i2c";
+		reg = <0xabcd 0x01>;
+	
+	};
+};

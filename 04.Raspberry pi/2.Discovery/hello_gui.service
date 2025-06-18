@@ -1,0 +1,11 @@
+[Unit]
+Description="hello gui app"
+[Service]
+User=pi
+ExecStartPre=sleep 20
+#Restart=on-failure
+ExecStart=/usr/bin/python3.11 /home/pi/C_project/2.Discovery/gui_mesg.py
+Environment="DISPLAY=:0"
+[Install]
+WantedBy=graphical.target
+

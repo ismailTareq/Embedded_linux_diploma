@@ -1,0 +1,3 @@
+/home/pi/projects/4.Iot/mqtt/build/CMakeFiles/Switcher.dir
+/home/pi/projects/4.Iot/mqtt/build/CMakeFiles/edit_cache.dir
+/home/pi/projects/4.Iot/mqtt/build/CMakeFiles/rebuild_cache.dir
