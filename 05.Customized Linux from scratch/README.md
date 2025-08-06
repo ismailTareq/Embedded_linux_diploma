@@ -99,8 +99,21 @@ You’ve successfully built a fully custom Linux system for Raspberry Pi 4 from 
 ✅ Custom Linux kernel with optimized modules
 ✅ Minimal rootfs powered by BusyBox
 ✅ Static/dynamic library support
-please check the screenshots for more clarification and thanks for ur time. 
+please check the screenshots for more clarification and thanks for ur time.
 
+## here is my bootfs and rootfs :https://github.com/ismailTareq/Raspi4-complete-tested-image/releases
+### For LFS:
+```bash
+git lfs pull
+tar -xJvf rpi4_bootfs.tar.xz
+tar -xJvf rpi4_rootfs.tar.xz
+```
+
+### For Split Archives:
+```bash
+cat rpi4_bootfs.tar.xz.* | xz -d | tar -xv
+cat rpi4_rootfs.tar.xz.* | xz -d | tar -xv
+```
 🔄 Next Steps will be found in yocto part and project check it out!!
 Expand functionality: Add packages like dropbear (SSH) or lighttpd (web server).
 Create a disk image: Use dd or buildroot for SD card deployment.
