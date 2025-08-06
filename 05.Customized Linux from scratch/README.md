@@ -29,7 +29,6 @@ A complete custom Linux system built from scratch for Raspberry Pi 4 featuring:
 | Serial Debug    | USB-to-TTL cable (3.3V)             |
 
 ## 📦 Build Dependencies
-```bash
 # Ubuntu/Debian
 sudo apt install build-essential git bison flex libncurses-dev \
     libssl-dev u-boot-tools tftpd-hpa nfs-kernel-server
@@ -44,7 +43,6 @@ make
 ./ct-ng aarch64-rpi4-linux-gnu
 ./ct-ng build
 # Output: ~/x-tools/aarch64-rpi4-linux-gnu/bin/
-```bash
 #-------------------------------------------------------------------------------------------------
 🚀 Step 2: U-Boot Bootloader
 git clone https://github.com/u-boot/u-boot.git
