@@ -44,8 +44,8 @@ make
 ./ct-ng aarch64-rpi4-linux-gnu
 ./ct-ng build
 # Output: ~/x-tools/aarch64-rpi4-linux-gnu/bin/
-#-------------------------------------------------------------------------------------------------
 ```bash
+#-------------------------------------------------------------------------------------------------
 🚀 Step 2: U-Boot Bootloader
 git clone https://github.com/u-boot/u-boot.git
 cd u-boot
