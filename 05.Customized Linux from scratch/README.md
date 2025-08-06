@@ -29,6 +29,7 @@ A complete custom Linux system built from scratch for Raspberry Pi 4 featuring:
 | Serial Debug    | USB-to-TTL cable (3.3V)             |
 
 ## 📦 Build Dependencies
+```bash
 # Ubuntu/Debian
 sudo apt install build-essential git bison flex libncurses-dev \
     libssl-dev u-boot-tools tftpd-hpa nfs-kernel-server
@@ -43,15 +44,14 @@ make
 ./ct-ng aarch64-rpi4-linux-gnu
 ./ct-ng build
 # Output: ~/x-tools/aarch64-rpi4-linux-gnu/bin/
-#-------------------------------------------------------------------------------------------------
+
 🚀 Step 2: U-Boot Bootloader
 git clone https://github.com/u-boot/u-boot.git
 cd u-boot
 make ARCH=arm64 CROSS_COMPILE=~/x-tools/aarch64-rpi4-linux-gnu/bin/aarch64-rpi4-linux-gnu- rpi_4_defconfig
 make -j$(nproc)
 #Output: u-boot.bin
-#-------------------------------------------------------------------------------------------------
-```bash
+
 🐧 Step 3: Linux Kernel
 git clone --depth=1 https://github.com/raspberrypi/linux
 cd linux
@@ -63,8 +63,7 @@ make ARCH=arm64 CROSS_COMPILE=~/x-tools/aarch64-rpi4-linux-gnu/bin/aarch64-rpi4-
 #Outputs:
 arch/arm64/boot/Image
 arch/arm64/boot/dts/broadcom/*.dtb
-#-------------------------------------------------------------------------------------------------
-```bash
+
 📂 Step 4: BusyBox RootFS
 wget https://busybox.net/downloads/busybox-1.36.1.tar.bz2
 tar xf busybox-*.tar.bz2
@@ -73,8 +72,7 @@ make defconfig
 make menuconfig # Enable static build or leave it and move the ~/x-tools/aarch64-rpi4-linux-gnu/aarch64-rpi4-linux-gnu/sysroot/ld* so it will need it
 make CROSS_COMPILE=~/x-tools/aarch64-rpi4-linux-gnu/bin/aarch64-rpi4-linux-gnu- -j$(nproc)
 make CONFIG_PREFIX=$HOME/rpi4-rootfs install
-#-------------------------------------------------------------------------------------------------
-```bash
+
 📚 Step 5: Static/Dynamic Libraries
 Build glibc (dynamic)
 # Built automatically in crosstool-ng toolchain
@@ -85,8 +83,7 @@ echo "void hello() { printf(\"Hello LFS!\\n\"); }" > hello.c
 aarch64-rpi4-linux-gnu-gcc -c hello.c -o hello.o
 ar rcs libhello.a hello.o
 # check the photos
-#-------------------------------------------------------------------------------------------------
-```bash
+
 🌐 Step 6: TFTP/NFS Deployment
 TFTP Setup (kernel/DTBs)
 sudo cp linux/arch/arm64/boot/Image /var/lib/tftpboot/
@@ -94,8 +91,7 @@ sudo cp linux/arch/arm64/boot/dts/broadcom/*.dtb /var/lib/tftpboot/
 NFS Setup (rootfs)
 sudo echo "/home/$USER/rpi4-rootfs *(rw,sync,no_root_squash)" >> /etc/exports
 sudo systemctl restart nfs-kernel-server
-#-------------------------------------------------------------------------------------------------
-```bash
+
 🎉 Project Completion
 You’ve successfully built a fully custom Linux system for Raspberry Pi 4 from scratch! This includes:
 ✅ Cross-compiled toolchain (via crosstool-ng)
@@ -104,12 +100,12 @@ You’ve successfully built a fully custom Linux system for Raspberry Pi 4 from 
 ✅ Minimal rootfs powered by BusyBox
 ✅ Static/dynamic library support
 please check the screenshots for more clarification and thanks for ur time. 
-```bash
+
 🔄 Next Steps will be found in yocto part and project check it out!!
 Expand functionality: Add packages like dropbear (SSH) or lighttpd (web server).
 Create a disk image: Use dd or buildroot for SD card deployment.
 Optimize boot time: Trim init scripts and enable parallel startup.
-```bash
+
 # note
 raspi5 doesn't support uboot still when it happens i will update this statment.
 
