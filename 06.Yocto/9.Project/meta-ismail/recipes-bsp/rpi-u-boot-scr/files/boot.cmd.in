@@ -1,0 +1,11 @@
+fdt addr ${fdt_addr} && fdt get value bootargs /chosen bootargs
+# fatload mmc 0:1 ${kernel_addr_r} @@KERNEL_IMAGETYPE@@
+setenv ipaddr 192.168.1.25
+setenv serverip 192.168.1.19
+tftpboot ${kernel_addr_r} Image 
+tftpboot ${fdt_addr} bcm2711-rpi-4-b.dtb
+
+setenv bootargs "console=ttyAMA0,115200 root=/dev/nfs nfsroot=${serverip}:/home/ismail/my_flash/nfs-rootfs,vers=3,tcp rw ip=dhcp rootwait isolcpus=3 rcu_nocbs=3 nohz_full=3 "
+
+if test ! -e mmc 0:1 uboot.env; then saveenv; fi;
+@@KERNEL_BOOTCMD@@ ${kernel_addr_r} - ${fdt_addr}

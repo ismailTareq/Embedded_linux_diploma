@@ -1,0 +1,9 @@
+[Unit]
+Description=Control GPIO17 LED using libgpiod
+After=sysinit.target
+
+[Service]
+ExecStart=/usr/bin/led-gpio
+
+[Install]
+WantedBy=multi-user.target

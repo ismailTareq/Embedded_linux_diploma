@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hello from Pi 4</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin-top: 40px; }
+    h1   { color: #27ae60; }
+    #led { font-size: 2em; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Hello from your Raspberry Pi&nbsp;4!</h1>
+  <p>The web server is up and running.</p>
+
+  <!-- LED STATUS -->
+  <p id="led">Loading…</p>
+
+  <script>
+    function readStatus() {
+      fetch('status.txt')
+        .then(r => r.text())
+        .then(t => document.getElementById('led').innerText = 'LED is ' + t.trim())
+        .catch(() => document.getElementById('led').innerText = 'LED status unavailable');
+    }
+    readStatus();
+    setInterval(readStatus, 1000);   // refresh every second
+  </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "brcm,bcm2711";  // Explicit RPi4 support
+    
+    fragment@0 {
+        target-path = "/";
+        __overlay__ {
+            dht11_sensor: dht11@0 {
+                compatible = "dht11";
+                gpios = <&gpio 23 0>;  // GPIO4, no flags
+                status = "okay";
+                pinctrl-names = "default";
+                pinctrl-0 = <&dht11_pins>;
+            };
+            
+            sensor_leds {
+                compatible = "gpio-leds";
+                status_led: led_status {
+                    gpios = <&gpio 17 0>;  // GPIO18
+                    default-state = "off";
+                };
+            };
+            
+            sensor_buttons {
+                compatible = "gpio-keys";
+                read_button: button@0 {
+                    gpios = <&gpio 12 1>;  // GPIO2, active low
+                    debounce-interval = <50>;
+                };
+            };
+        };
+    };
+    
+    fragment@1 {
+        target = <&gpio>;
+        __overlay__ {
+            dht11_pins: dht11_pins {
+                brcm,pins = <23>;
+                brcm,function = <0>;  // Input
+                brcm,pull = <2>;      // Pull-up
+            };
+            
+            led_pins: led_pins {
+                brcm,pins = <17>;
+                brcm,function = <1>;  // Output
+                brcm,output-high;     // RPi4-specific
+            };
+            
+            button_pins: button_pins {
+                brcm,pins = <12>;
+                brcm,function = <0>;  // Input
+                brcm,pull = <2>;      // Pull-up
+            };
+        };
+    };
+};

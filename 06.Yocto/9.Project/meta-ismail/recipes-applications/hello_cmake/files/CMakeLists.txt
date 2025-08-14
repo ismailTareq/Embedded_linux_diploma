@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+PROJECT(hello_cmake)
+add_executable(${PROJECT_NAME} main.c)
+add_compile_definitions(VALUE)
+install(TARGETS ${PROJECT_NAME} DESTINATION bin)

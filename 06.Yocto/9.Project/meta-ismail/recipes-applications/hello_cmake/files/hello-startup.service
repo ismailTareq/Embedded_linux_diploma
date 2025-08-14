@@ -1,0 +1,8 @@
+[Unit]
+Description=Hello CMake Service
+
+[Service]
+ExecStart=/usr/bin/hello-cmake
+
+[Install]
+WantedBy=multi-user.target
