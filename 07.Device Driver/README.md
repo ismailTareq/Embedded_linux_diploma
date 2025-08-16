@@ -36,32 +36,7 @@ This repository contains platform framework drivers developed for embedded Linux
 - **Poll/Select Support** - Asynchronous I/O notification
 
 ## 🏗️ Architecture
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Application   │    │   Application   │    │   Application   │
-│     Space       │    │     Space       │    │     Space       │
-└─────────┬───────┘    └─────────┬───────┘    └─────────┬───────┘
-          │                      │                      │
-          ▼                      ▼                      ▼
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│  /sys/class/pwm │    │ /sys/class/gpio │    │    /dev/mydev   │
-└─────────┬───────┘    └─────────┬───────┘    └─────────┬───────┘
-          │                      │                      │
-          ▼                      ▼                      ▼
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   PWM Driver    │    │  GPIO Driver    │    │  Char Driver    │
-└─────────┬───────┘    └─────────┬───────┘    └─────────┬───────┘
-          │                      │                      │
-          └──────────────────────┼──────────────────────┘
-                                 ▼
-                    ┌─────────────────┐
-                    │ Platform Driver │
-                    │   Framework     │
-                    └─────────┬───────┘
-                              ▼
-                    ┌─────────────────┐
-                    │    Hardware     │
-                    │   (GPIO/PWM)    │
-                    └─────────────────┘
+![gitHub](https://github.com/ismailTareq/Embedded_linux2024_diploma/blob/main/07.Device%20Driver/arch.png)
 
 ## 💡 Usage Examples
 
@@ -85,7 +60,7 @@ echo 750000 > /sys/class/pwm/pwmchip0/pwm0/duty_cycle
 # Turn off PWM
 echo 0 > /sys/class/pwm/pwmchip0/pwm0/enable
 GPIO Driver - Control LED and Read Button
-bash
+
 # Control LED on GPIO18
 echo 18 > /sys/class/gpio/export
 echo out > /sys/class/gpio/gpio18/direction
@@ -107,7 +82,7 @@ cat /sys/class/gpio/gpio2/value
 echo 18 > /sys/class/gpio/unexport
 echo 2 > /sys/class/gpio/unexport
 Character Device - Send Commands and Read Data
-bash
+
 # Check if device exists
 ls -la /dev/myplatform*
 
@@ -125,7 +100,7 @@ temperature=$(cat /dev/myplatform0)
 echo "Current temperature: $temperature"
 Scripted Automation Examples
 LED Blink Script
-bash
+
 #!/bin/bash
 # LED Blink Script
 LED_GPIO=18
@@ -141,7 +116,7 @@ done
 
 echo $LED_GPIO > /sys/class/gpio/unexport
 PWM Breathing LED Effect
-bash
+
 #!/bin/bash
 # PWM Breathing LED Effect
 PWM_CHIP=0
@@ -164,17 +139,11 @@ echo 0 > /sys/class/pwm/pwmchip0/pwm${PWM_CHIP}/enable
 📥 Installation
 To use these drivers:
 
-Clone the repository:
-
-bash
-git clone https://github.com/yourusername/embedded-platform-drivers.git
-Build the kernel modules:
-
-bash
 make -C /lib/modules/$(uname -r)/build M=$(pwd) modules
 Load the modules:
 
-bash
 sudo insmod pwm_driver.ko
 sudo insmod gpio_driver.ko
 sudo insmod char_driver.ko
+
+## Note: the dtb is in the raspi section in bringup and in yocto check it out
