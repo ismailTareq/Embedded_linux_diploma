@@ -17,6 +17,5 @@
 ![gitHub](https://github.com/ismailTareq/Embedded_linux2024_diploma/blob/main/06.Yocto/images/3.png)
 ![gitHub](https://github.com/ismailTareq/Embedded_linux2024_diploma/blob/main/06.Yocto/images/4.png)
 ![gitHub](https://github.com/ismailTareq/Embedded_linux2024_diploma/blob/main/06.Yocto/images/5.png)
-![gitHub](https://github.com/ismailTareq/Embedded_linux2024_diploma/blob/main/06.Yocto/images/6.png)
 ![gitHub](https://github.com/ismailTareq/Embedded_linux2024_diploma/blob/main/06.Yocto/images/7.png)
 ---
