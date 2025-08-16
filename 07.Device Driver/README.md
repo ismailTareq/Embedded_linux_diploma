@@ -1,3 +1,9 @@
+## what i learned way more than this
+![gitHub](https://github.com/ismailTareq/Embedded_linux2024_diploma/blob/main/07.Device%20Driver/images/1.png)
+![gitHub](https://github.com/ismailTareq/Embedded_linux2024_diploma/blob/main/07.Device%20Driver/images/2.png)
+![gitHub](https://github.com/ismailTareq/Embedded_linux2024_diploma/blob/main/07.Device%20Driver/images/3.png)
+
+
 # Platform Device Drivers for Embedded Linux
 
 A collection of custom platform device drivers implementing PWM, GPIO, and character device interfaces for embedded Linux systems.
