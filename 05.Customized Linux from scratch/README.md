@@ -1,4 +1,4 @@
-# what I  learned
+## 📋 what I learned 
 ![gitHub](https://github.com/ismailTareq/Embedded_linux2024_diploma/blob/main/05.Customized%20Linux%20from%20scratch/Images/1.png)
 ![gitHub](https://github.com/ismailTareq/Embedded_linux2024_diploma/blob/main/05.Customized%20Linux%20from%20scratch/Images/2.png)
 ![gitHub](https://github.com/ismailTareq/Embedded_linux2024_diploma/blob/main/05.Customized%20Linux%20from%20scratch/Images/3%2C4.png)
