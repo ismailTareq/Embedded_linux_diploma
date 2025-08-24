@@ -11,7 +11,7 @@
 ---
 
 ---
-## what I learned it's way more than this 
+## what I learned 
 ![gitHub](https://github.com/ismailTareq/Embedded_linux2024_diploma/blob/main/06.Yocto/images/1.png)
 ![gitHub](https://github.com/ismailTareq/Embedded_linux2024_diploma/blob/main/06.Yocto/images/2.png)
 ![gitHub](https://github.com/ismailTareq/Embedded_linux2024_diploma/blob/main/06.Yocto/images/3.png)
