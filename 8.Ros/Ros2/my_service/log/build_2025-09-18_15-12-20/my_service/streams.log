@@ -1,0 +1,71 @@
+[0.011s] Invoking command in '/home/ismail2/colcon_ws/src/my_service/build/my_service': CMAKE_PREFIX_PATH=/home/ismail2/colcon_ws/src/install/soso:/home/ismail2/colcon_ws/src/install/control_car:/home/ismail2/colcon_ws/install/soso:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/ismail2/colcon_ws/src/my_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ismail2/colcon_ws/src/my_service/install/my_service
+[0.066s] -- The C compiler identification is GNU 9.4.0
+[0.114s] -- The CXX compiler identification is GNU 9.4.0
+[0.117s] -- Check for working C compiler: /usr/bin/cc
+[0.182s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.182s] -- Detecting C compiler ABI info
+[0.258s] -- Detecting C compiler ABI info - done
+[0.266s] -- Detecting C compile features
+[0.266s] -- Detecting C compile features - done
+[0.269s] -- Check for working CXX compiler: /usr/bin/c++
+[0.356s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.357s] -- Detecting CXX compiler ABI info
+[0.441s] -- Detecting CXX compiler ABI info - done
+[0.451s] -- Detecting CXX compile features
+[0.452s] -- Detecting CXX compile features - done
+[0.454s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.484s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.484s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.679s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.703s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.732s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.739s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.825s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.853s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.925s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.968s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.004s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.176s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[1.176s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.176s]   my_service --arguments-file
+[1.176s]   /home/ismail2/colcon_ws/src/my_service/build/my_service/rosidl_adapter__arguments__my_service.json
+[1.176s]   --output-dir
+[1.176s]   /home/ismail2/colcon_ws/src/my_service/build/my_service/rosidl_adapter/my_service
+[1.176s]   --output-file
+[1.176s]   /home/ismail2/colcon_ws/src/my_service/build/my_service/rosidl_adapter/my_service.idls)
+[1.177s]   returned error code 1:
+[1.177s] 
+[1.177s]   Traceback (most recent call last):
+[1.177s] 
+[1.177s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[1.177s]       return _run_code(code, main_globals, None,
+[1.177s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[1.177s]       exec(code, run_globals)
+[1.177s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.177s]       sys.exit(main())
+[1.177s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[1.177s]       abs_idl_file = convert_to_idl(
+[1.177s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[1.177s]       return convert_srv_to_idl(
+[1.177s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[1.178s]       srv = parse_service_string(package_name, input_file.stem, content)
+[1.178s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 852, in parse_service_string
+[1.178s]       request_message = parse_message_string(
+[1.178s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string
+[1.178s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[1.178s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__
+[1.178s]       self.base_type = BaseType(
+[1.178s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[1.178s]       raise InvalidResourceName(
+[1.178s] 
+[1.179s]   rosidl_adapter.parser.InvalidResourceName: 'myservice_Request' is an
+[1.179s]   invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[1.179s] 
+[1.179s] Call Stack (most recent call first):
+[1.179s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.179s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[1.179s] 
+[1.179s] 
+[1.179s] -- Configuring incomplete, errors occurred!
+[1.179s] See also "/home/ismail2/colcon_ws/src/my_service/build/my_service/CMakeFiles/CMakeOutput.log".
+[1.184s] Invoked command in '/home/ismail2/colcon_ws/src/my_service/build/my_service' returned '1': CMAKE_PREFIX_PATH=/home/ismail2/colcon_ws/src/install/soso:/home/ismail2/colcon_ws/src/install/control_car:/home/ismail2/colcon_ws/install/soso:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/ismail2/colcon_ws/src/my_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ismail2/colcon_ws/src/my_service/install/my_service

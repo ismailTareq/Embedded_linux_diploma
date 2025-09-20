@@ -1,0 +1,82 @@
+[0.197s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.197s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7d2e3013d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=3, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7d2e3013d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7d2e3018e0>)
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.359s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ismail2/colcon_ws/src/my_service'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.371s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'my_service'
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.395s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ismail2/colcon_ws/install
+[0.396s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ismail2/colcon_ws/src/install
+[0.398s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 373 installed packages in /opt/ros/foxy
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'my_service' build argument 'cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'my_service' build argument 'cmake_target' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'my_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'my_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'my_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'my_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.465s] DEBUG:colcon.colcon_core.verb:Building package 'my_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ismail2/colcon_ws/src/my_service/build/my_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ismail2/colcon_ws/src/my_service/install/my_service', 'merge_install': False, 'path': '/home/ismail2/colcon_ws/src/my_service', 'symlink_install': True, 'test_result_base': None}
+[0.465s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.466s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.466s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ismail2/colcon_ws/src/my_service' with build type 'ament_cmake'
+[0.467s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ismail2/colcon_ws/src/my_service'
+[0.468s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.469s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.469s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.471s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/ismail2/catkin_ws/devel'
+[0.472s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/noetic'
+[0.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ismail2/colcon_ws/src/my_service/build/my_service': CMAKE_PREFIX_PATH=/home/ismail2/colcon_ws/src/install/soso:/home/ismail2/colcon_ws/src/install/control_car:/home/ismail2/colcon_ws/install/soso:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/ismail2/colcon_ws/src/my_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ismail2/colcon_ws/src/my_service/install/my_service
+[1.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ismail2/colcon_ws/src/my_service/build/my_service' returned '1': CMAKE_PREFIX_PATH=/home/ismail2/colcon_ws/src/install/soso:/home/ismail2/colcon_ws/src/install/control_car:/home/ismail2/colcon_ws/install/soso:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/ismail2/colcon_ws/src/my_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ismail2/colcon_ws/src/my_service/install/my_service
+[1.151s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_service)
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/ismail2/colcon_ws/src/my_service/install/my_service' for CMake module files
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/ismail2/colcon_ws/src/my_service/install/my_service' for CMake config files
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/ismail2/colcon_ws/src/my_service/install/my_service/bin'
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/ismail2/colcon_ws/src/my_service/install/my_service/lib/pkgconfig/my_service.pc'
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/ismail2/colcon_ws/src/my_service/install/my_service/lib/python3.8/site-packages'
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/ismail2/colcon_ws/src/my_service/install/my_service/bin'
+[1.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/ismail2/colcon_ws/src/my_service/install/my_service/share/my_service/package.ps1'
+[1.156s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ismail2/colcon_ws/src/my_service/install/my_service/share/my_service/package.dsv'
+[1.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/ismail2/colcon_ws/src/my_service/install/my_service/share/my_service/package.sh'
+[1.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/ismail2/colcon_ws/src/my_service/install/my_service/share/my_service/package.bash'
+[1.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/ismail2/colcon_ws/src/my_service/install/my_service/share/my_service/package.zsh'
+[1.159s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ismail2/colcon_ws/src/my_service/install/my_service/share/colcon-core/packages/my_service)
+[1.170s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.170s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.171s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.171s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.182s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.183s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.183s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.205s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.205s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ismail2/colcon_ws/src/my_service/install/local_setup.ps1'
+[1.207s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ismail2/colcon_ws/src/my_service/install/_local_setup_util_ps1.py'
+[1.208s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ismail2/colcon_ws/src/my_service/install/setup.ps1'
+[1.210s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ismail2/colcon_ws/src/my_service/install/local_setup.sh'
+[1.221s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ismail2/colcon_ws/src/my_service/install/_local_setup_util_sh.py'
+[1.221s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ismail2/colcon_ws/src/my_service/install/setup.sh'
+[1.222s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ismail2/colcon_ws/src/my_service/install/local_setup.bash'
+[1.223s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ismail2/colcon_ws/src/my_service/install/setup.bash'
+[1.224s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ismail2/colcon_ws/src/my_service/install/local_setup.zsh'
+[1.225s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ismail2/colcon_ws/src/my_service/install/setup.zsh'

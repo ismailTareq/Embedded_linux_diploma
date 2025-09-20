@@ -1,0 +1,6 @@
+{
+  "package_name": "my_service",
+  "non_idl_tuples": [
+    "/home/ismail2/colcon_ws/src/my_service:srv/myservice.srv"
+  ]
+}
