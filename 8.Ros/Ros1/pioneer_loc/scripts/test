@@ -1,0 +1,39 @@
+function sysCall_init()
+    pioneer_robot = sim.getObjectHandle("/Pioneer")
+    motorright = sim.getObjectHandle("/rightMotor")
+    motorleft = sim.getObjectHandle("/leftMotor")
+    if simROS then
+        sim.addLog(sim.verbosity_scriptinfos,"ROS interface was found")
+        pub = simROS.advertise("/pioneer_loc","geometry_msgs/Pose2D")
+    else
+        sim.addLog(sim.verbosity_scripterrors,"ROS interface wasn't found")
+    end
+end
+
+function sysCall_actuation()
+    sim.setJointTargetVelocity(motorleft,6)
+    sim.setJointTargetVelocity(motorright,4)
+    
+    if simROS then
+        pos = sim.getObjectPosition(pioneer_robot,-1)
+        eulerAngles = sim.getObjectOrientation(pioneer_robot,-1)
+        alpha, beta, gamma = sim.yawPitchRollToAlphaBetaGamma(eulerAngles[1],eulerAngles[2],eulerAngles[3])
+        local msg = {}
+        msg['x'] = pos[1]
+        msg['y'] = pos[2]
+        msg['theta'] = alpha
+        simROS.publish(pub,msg)
+    end
+    
+end
+
+function sysCall_sensing()
+    -- put your sensing code here
+end
+
+function sysCall_cleanup()
+    if simROS then
+        simROS.shutdownPublisher(pub)
+    end
+end
+

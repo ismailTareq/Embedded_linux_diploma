@@ -1,0 +1,7 @@
+<launch>]
+    <param name="freq" value="10" />
+    <node name="turtlsim_sim" pkg="turtlesim" type="turtlesim_node" />
+    <node name="turtlsim_key" pkg="turtlesim" type="turtle_teleop_key" />
+    <node name="talker" pkg="soso" type="talker.py" />
+    <node name="listener" pkg="soso" type="listener.py" output="screen" />
+</launch>
