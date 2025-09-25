@@ -1,0 +1,1193 @@
+
+Merging program properties
+
+
+As-needed library included to satisfy reference by file (symbol)
+
+libstdc++.so.6                Adaptive_Crusie_Control.o (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_S_copy_chars(char*, char const*, char const*)@@GLIBCXX_3.4.21)
+libgcc_s.so.1                 Adaptive_Crusie_Control.o (_Unwind_Resume@@GCC_3.0)
+libc.so.6                     main.o (nanosleep@@GLIBC_2.2.5)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+ .group         0x0000000000000000        0x8 Adaptive_Crusie_Control.o
+ .group         0x0000000000000000        0xc Adaptive_Crusie_Control.o
+ .group         0x0000000000000000        0xc Adaptive_Crusie_Control.o
+ .group         0x0000000000000000        0xc Adaptive_Crusie_Control.o
+ .group         0x0000000000000000        0xc Adaptive_Crusie_Control.o
+ .group         0x0000000000000000        0x8 Adaptive_Crusie_Control.o
+ .group         0x0000000000000000        0x8 Adaptive_Crusie_Control.o
+ .group         0x0000000000000000        0x8 Adaptive_Crusie_Control.o
+ .group         0x0000000000000000        0xc Adaptive_Crusie_Control.o
+ .group         0x0000000000000000        0xc Adaptive_Crusie_Control.o
+ .group         0x0000000000000000        0xc Adaptive_Crusie_Control.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Adaptive_Crusie_Control.o
+ .note.gnu.property
+                0x0000000000000000       0x20 Adaptive_Crusie_Control.o
+ .group         0x0000000000000000        0xc Battery_Sensor.o
+ .group         0x0000000000000000        0xc Battery_Sensor.o
+ .group         0x0000000000000000        0xc Battery_Sensor.o
+ .group         0x0000000000000000        0xc Battery_Sensor.o
+ .group         0x0000000000000000        0xc Battery_Sensor.o
+ .group         0x0000000000000000        0x8 Battery_Sensor.o
+ .group         0x0000000000000000        0xc Battery_Sensor.o
+ .group         0x0000000000000000        0x8 Battery_Sensor.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Battery_Sensor.o
+ .note.gnu.property
+                0x0000000000000000       0x20 Battery_Sensor.o
+ .group         0x0000000000000000        0x8 Diagnostics.o
+ .group         0x0000000000000000        0xc Diagnostics.o
+ .group         0x0000000000000000        0xc Diagnostics.o
+ .group         0x0000000000000000        0xc Diagnostics.o
+ .group         0x0000000000000000        0xc Diagnostics.o
+ .group         0x0000000000000000        0x8 Diagnostics.o
+ .group         0x0000000000000000        0x8 Diagnostics.o
+ .group         0x0000000000000000        0x8 Diagnostics.o
+ .group         0x0000000000000000        0xc Diagnostics.o
+ .group         0x0000000000000000        0xc Diagnostics.o
+ .group         0x0000000000000000        0xc Diagnostics.o
+ .text._ZSt23__is_constant_evaluatedv
+                0x0000000000000000        0xf Diagnostics.o
+ .text._ZNSt11char_traitsIcE6lengthEPKc
+                0x0000000000000000       0x36 Diagnostics.o
+ .text._ZN9__gnu_cxx11char_traitsIcE6lengthEPKc
+                0x0000000000000000       0x6d Diagnostics.o
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderD2Ev
+                0x0000000000000000       0x28 Diagnostics.o
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_
+                0x0000000000000000       0xa8 Diagnostics.o
+ .text._ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_
+                0x0000000000000000       0x25 Diagnostics.o
+ .text._ZNSt15__new_allocatorIcED2Ev
+                0x0000000000000000        0xf Diagnostics.o
+ .text._ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardC2EPS4_
+                0x0000000000000000       0x1e Diagnostics.o
+ .text._ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardD2Ev
+                0x0000000000000000       0x2e Diagnostics.o
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag
+                0x0000000000000000      0x119 Diagnostics.o
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 Diagnostics.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Diagnostics.o
+ .note.gnu.property
+                0x0000000000000000       0x20 Diagnostics.o
+ .group         0x0000000000000000        0x8 logger.o
+ .group         0x0000000000000000        0xc logger.o
+ .group         0x0000000000000000        0x8 logger.o
+ .group         0x0000000000000000        0xc logger.o
+ .group         0x0000000000000000        0xc logger.o
+ .group         0x0000000000000000        0x8 logger.o
+ .group         0x0000000000000000       0x10 logger.o
+ .group         0x0000000000000000        0x8 logger.o
+ .group         0x0000000000000000        0xc logger.o
+ .group         0x0000000000000000        0x8 logger.o
+ .group         0x0000000000000000        0xc logger.o
+ .group         0x0000000000000000        0x8 logger.o
+ .group         0x0000000000000000        0x8 logger.o
+ .group         0x0000000000000000        0xc logger.o
+ .group         0x0000000000000000        0x8 logger.o
+ .group         0x0000000000000000        0xc logger.o
+ .group         0x0000000000000000        0x8 logger.o
+ .group         0x0000000000000000        0x8 logger.o
+ .group         0x0000000000000000        0xc logger.o
+ .group         0x0000000000000000        0xc logger.o
+ .text._ZSt23__is_constant_evaluatedv
+                0x0000000000000000        0xf logger.o
+ .text._ZNSt11char_traitsIcE6lengthEPKc
+                0x0000000000000000       0x36 logger.o
+ .text._ZN9__gnu_cxx11char_traitsIcE6lengthEPKc
+                0x0000000000000000       0x6d logger.o
+ .text._ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_
+                0x0000000000000000       0x25 logger.o
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 logger.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 logger.o
+ .note.gnu.property
+                0x0000000000000000       0x20 logger.o
+ .group         0x0000000000000000        0x8 main.o
+ .group         0x0000000000000000        0x8 main.o
+ .group         0x0000000000000000        0x8 main.o
+ .group         0x0000000000000000        0x8 main.o
+ .group         0x0000000000000000        0x8 main.o
+ .group         0x0000000000000000        0x8 main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0x8 main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .group         0x0000000000000000        0xc main.o
+ .text._ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv
+                0x0000000000000000       0x15 main.o
+ .text._ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC1IlvEERKT_
+                0x0000000000000000       0x21 main.o
+ .text._ZNKSt6chrono8durationIlSt5ratioILl1ELl1EEE5countEv
+                0x0000000000000000       0x15 main.o
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 main.o
+ .note.gnu.property
+                0x0000000000000000       0x20 main.o
+ .group         0x0000000000000000        0xc Radar_Sensor.o
+ .group         0x0000000000000000        0xc Radar_Sensor.o
+ .group         0x0000000000000000        0xc Radar_Sensor.o
+ .group         0x0000000000000000        0xc Radar_Sensor.o
+ .group         0x0000000000000000        0xc Radar_Sensor.o
+ .group         0x0000000000000000        0x8 Radar_Sensor.o
+ .group         0x0000000000000000        0xc Radar_Sensor.o
+ .group         0x0000000000000000        0x8 Radar_Sensor.o
+ .text._ZN6SensorC2Ev
+                0x0000000000000000       0x1d Radar_Sensor.o
+ .text._ZN6SensorD2Ev
+                0x0000000000000000       0x1d Radar_Sensor.o
+ .data.rel.ro._ZTV6Sensor
+                0x0000000000000000       0x20 Radar_Sensor.o
+ .data.rel.ro._ZTI6Sensor
+                0x0000000000000000       0x10 Radar_Sensor.o
+ .rodata._ZTS6Sensor
+                0x0000000000000000        0x8 Radar_Sensor.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Radar_Sensor.o
+ .note.gnu.property
+                0x0000000000000000       0x20 Radar_Sensor.o
+ .group         0x0000000000000000        0xc Speed_Sensor.o
+ .group         0x0000000000000000        0xc Speed_Sensor.o
+ .group         0x0000000000000000        0xc Speed_Sensor.o
+ .group         0x0000000000000000        0xc Speed_Sensor.o
+ .group         0x0000000000000000        0xc Speed_Sensor.o
+ .group         0x0000000000000000        0x8 Speed_Sensor.o
+ .group         0x0000000000000000        0xc Speed_Sensor.o
+ .group         0x0000000000000000        0x8 Speed_Sensor.o
+ .text._ZN6SensorC2Ev
+                0x0000000000000000       0x1d Speed_Sensor.o
+ .text._ZN6SensorD2Ev
+                0x0000000000000000       0x1d Speed_Sensor.o
+ .data.rel.ro._ZTV6Sensor
+                0x0000000000000000       0x20 Speed_Sensor.o
+ .data.rel.ro._ZTI6Sensor
+                0x0000000000000000       0x10 Speed_Sensor.o
+ .rodata._ZTS6Sensor
+                0x0000000000000000        0x8 Speed_Sensor.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Speed_Sensor.o
+ .note.gnu.property
+                0x0000000000000000       0x20 Speed_Sensor.o
+ .group         0x0000000000000000        0xc Temperature_Sensor.o
+ .group         0x0000000000000000        0xc Temperature_Sensor.o
+ .group         0x0000000000000000        0xc Temperature_Sensor.o
+ .group         0x0000000000000000        0xc Temperature_Sensor.o
+ .group         0x0000000000000000        0xc Temperature_Sensor.o
+ .group         0x0000000000000000        0x8 Temperature_Sensor.o
+ .group         0x0000000000000000        0xc Temperature_Sensor.o
+ .group         0x0000000000000000        0x8 Temperature_Sensor.o
+ .text._ZN6SensorC2Ev
+                0x0000000000000000       0x1d Temperature_Sensor.o
+ .text._ZN6SensorD2Ev
+                0x0000000000000000       0x1d Temperature_Sensor.o
+ .data.rel.ro._ZTV6Sensor
+                0x0000000000000000       0x20 Temperature_Sensor.o
+ .data.rel.ro._ZTI6Sensor
+                0x0000000000000000       0x10 Temperature_Sensor.o
+ .rodata._ZTS6Sensor
+                0x0000000000000000        0x8 Temperature_Sensor.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Temperature_Sensor.o
+ .note.gnu.property
+                0x0000000000000000       0x20 Temperature_Sensor.o
+ .group         0x0000000000000000        0x8 Vehicle.o
+ .group         0x0000000000000000        0xc Vehicle.o
+ .group         0x0000000000000000       0x10 Vehicle.o
+ .group         0x0000000000000000        0xc Vehicle.o
+ .group         0x0000000000000000        0x8 Vehicle.o
+ .group         0x0000000000000000        0xc Vehicle.o
+ .group         0x0000000000000000        0xc Vehicle.o
+ .group         0x0000000000000000        0xc Vehicle.o
+ .group         0x0000000000000000        0xc Vehicle.o
+ .group         0x0000000000000000        0xc Vehicle.o
+ .group         0x0000000000000000        0xc Vehicle.o
+ .group         0x0000000000000000        0xc Vehicle.o
+ .group         0x0000000000000000        0x8 Vehicle.o
+ .group         0x0000000000000000        0x8 Vehicle.o
+ .group         0x0000000000000000        0x8 Vehicle.o
+ .group         0x0000000000000000        0xc Vehicle.o
+ .group         0x0000000000000000        0xc Vehicle.o
+ .group         0x0000000000000000        0x8 Vehicle.o
+ .group         0x0000000000000000        0xc Vehicle.o
+ .text._ZSt23__is_constant_evaluatedv
+                0x0000000000000000        0xf Vehicle.o
+ .text._ZNSt11char_traitsIcE6lengthEPKc
+                0x0000000000000000       0x36 Vehicle.o
+ .text._ZN9__gnu_cxx11char_traitsIcE6lengthEPKc
+                0x0000000000000000       0x6d Vehicle.o
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderD2Ev
+                0x0000000000000000       0x28 Vehicle.o
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_
+                0x0000000000000000       0xa8 Vehicle.o
+ .text._ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_
+                0x0000000000000000       0x25 Vehicle.o
+ .text._ZNSt15__new_allocatorIcED2Ev
+                0x0000000000000000        0xf Vehicle.o
+ .text._ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardC2EPS4_
+                0x0000000000000000       0x1e Vehicle.o
+ .text._ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardD2Ev
+                0x0000000000000000       0x2e Vehicle.o
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag
+                0x0000000000000000      0x119 Vehicle.o
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 Vehicle.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Vehicle.o
+ .note.gnu.property
+                0x0000000000000000       0x20 Vehicle.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+LOAD Adaptive_Crusie_Control.o
+LOAD Battery_Sensor.o
+LOAD Diagnostics.o
+LOAD logger.o
+LOAD main.o
+LOAD Radar_Sensor.o
+LOAD Speed_Sensor.o
+LOAD Temperature_Sensor.o
+LOAD Vehicle.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib64/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x0))
+                0x0000000000000318                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.interp         0x0000000000000318       0x1c
+ *(.interp)
+ .interp        0x0000000000000318       0x1c /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.gnu.property
+                0x0000000000000338       0x30
+ .note.gnu.property
+                0x0000000000000338       0x30 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.gnu.build-id
+                0x0000000000000368       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000000368       0x24 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.ABI-tag   0x000000000000038c       0x20
+ .note.ABI-tag  0x000000000000038c       0x20 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000003b0       0x34
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000003b0       0x34 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynsym         0x00000000000003e8      0x690
+ *(.dynsym)
+ .dynsym        0x00000000000003e8      0x690 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynstr         0x0000000000000a78      0xbd2
+ *(.dynstr)
+ .dynstr        0x0000000000000a78      0xbd2 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version    0x000000000000164a       0x8c
+ *(.gnu.version)
+ .gnu.version   0x000000000000164a       0x8c /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_d  0x00000000000016d8        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000000016d8        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_r  0x00000000000016d8       0xe0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000000016d8       0xe0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.dyn       0x00000000000017b8      0x3f0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x00000000000017b8        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZN6SensorC2Ev
+                0x00000000000017b8        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZN6SensorD2Ev
+                0x00000000000017b8        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.ro
+                0x00000000000017b8        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.local
+                0x00000000000017b8       0x18 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.local.DW.ref.__gxx_personality_v0
+                0x00000000000017d0       0x18 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro.local._ZTV14Battery_Sensor
+                0x00000000000017e8       0x48 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTV6Sensor
+                0x0000000000001830       0x48 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTI14Battery_Sensor
+                0x0000000000001878       0x48 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTI6Sensor
+                0x00000000000018c0       0x30 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.local.DW.ref._ZTIN10__cxxabiv115__forced_unwindE
+                0x00000000000018f0       0x18 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro.local._ZTV12Radar_Sensor
+                0x0000000000001908       0x48 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTI12Radar_Sensor
+                0x0000000000001950       0x48 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro.local._ZTV12Speed_Sensor
+                0x0000000000001998       0x48 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTI12Speed_Sensor
+                0x00000000000019e0       0x48 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro.local._ZTV18Temperature_Sensor
+                0x0000000000001a28       0x48 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTI18Temperature_Sensor
+                0x0000000000001a70       0x48 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000001ab8       0x90 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x0000000000001b48       0x30 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000001b78        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.fini_array
+                0x0000000000001b78       0x18 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.init_array
+                0x0000000000001b90       0x18 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.eh_frame
+                0x0000000000001ba8        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.gcc_except_table
+                0x0000000000001ba8        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.plt       0x0000000000001ba8      0x510
+ *(.rela.plt)
+ .rela.plt      0x0000000000001ba8      0x510 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.iplt)
+
+.relr.dyn
+ *(.relr.dyn)
+                0x0000000000003000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+
+.init           0x0000000000003000       0x1b
+ *(SORT_NONE(.init))
+ .init          0x0000000000003000       0x16 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o
+                0x0000000000003000                _init
+ .init          0x0000000000003016        0x5 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000003020      0x370
+ *(.plt)
+ .plt           0x0000000000003020      0x370 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ *(.iplt)
+
+.plt.got        0x0000000000003390       0x10
+ *(.plt.got)
+ .plt.got       0x0000000000003390       0x10 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000003390                __cxa_finalize@@GLIBC_2.2.5
+
+.plt.sec        0x00000000000033a0      0x360
+ *(.plt.sec)
+ .plt.sec       0x00000000000033a0      0x360 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                0x00000000000033a0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::capacity() const@@GLIBCXX_3.4.21
+                0x00000000000033b0                __errno_location@@GLIBC_2.2.5
+                0x00000000000033c0                std::basic_ofstream<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode)@@GLIBCXX_3.4
+                0x00000000000033d0                std::chrono::_V2::system_clock::now()@@GLIBCXX_3.4.19
+                0x00000000000033e0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::insert(unsigned long, char const*)@@GLIBCXX_3.4.21
+                0x00000000000033f0                rand@@GLIBC_2.2.5
+                0x0000000000003400                nanosleep@@GLIBC_2.2.5
+                0x0000000000003410                __cxa_begin_catch@@CXXABI_1.3
+                0x0000000000003420                strlen@@GLIBC_2.2.5
+                0x0000000000003430                std::basic_ios<char, std::char_traits<char> >::rdbuf() const@@GLIBCXX_3.4
+                0x0000000000003440                std::basic_ios<char, std::char_traits<char> >::_M_setstate(std::_Ios_Iostate)@@GLIBCXX_3.4
+                0x0000000000003450                std::ostream::sentry::~sentry()@@GLIBCXX_3.4
+                0x0000000000003460                std::basic_ios<char, std::char_traits<char> >::fill() const@@GLIBCXX_3.4
+                0x0000000000003470                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)@@GLIBCXX_3.4.21
+                0x0000000000003480                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()@@GLIBCXX_3.4.21
+                0x0000000000003490                std::locale::locale(std::locale const&)@@GLIBCXX_3.4
+                0x00000000000034a0                std::basic_ios<char, std::char_traits<char> >::setstate(std::_Ios_Iostate)@@GLIBCXX_3.4
+                0x00000000000034b0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_set_length(unsigned long)@@GLIBCXX_3.4.21
+                0x00000000000034c0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size() const@@GLIBCXX_3.4.21
+                0x00000000000034d0                std::__throw_logic_error(char const*)@@GLIBCXX_3.4
+                0x00000000000034e0                localtime@@GLIBC_2.2.5
+                0x00000000000034f0                std::basic_ofstream<char, std::char_traits<char> >::is_open()@@GLIBCXX_3.4
+                0x0000000000003500                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_local_data()@@GLIBCXX_3.4.21
+                0x0000000000003510                std::ostream::sentry::sentry(std::ostream&)@@GLIBCXX_3.4
+                0x0000000000003520                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_data(char*)@@GLIBCXX_3.4.21
+                0x0000000000003530                std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, std::allocator<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@@GLIBCXX_3.4.21
+                0x0000000000003540                time@@GLIBC_2.2.5
+                0x0000000000003550                srand@@GLIBC_2.2.5
+                0x0000000000003560                std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@@GLIBCXX_3.4
+                0x0000000000003570                operator new(unsigned long)@@GLIBCXX_3.4
+                0x0000000000003580                operator delete(void*, unsigned long)@@CXXABI_1.3.9
+                0x0000000000003590                std::ostream::operator<<(std::ostream& (*)(std::ostream&))@@GLIBCXX_3.4
+                0x00000000000035a0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_Alloc_hider::_Alloc_hider(char*, std::allocator<char> const&)@@GLIBCXX_3.4.21
+                0x00000000000035b0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_data() const@@GLIBCXX_3.4.21
+                0x00000000000035c0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_S_copy_chars(char*, char const*, char const*)@@GLIBCXX_3.4.21
+                0x00000000000035d0                __stack_chk_fail@@GLIBC_2.4
+                0x00000000000035e0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct(unsigned long, char)@@GLIBCXX_3.4.21
+                0x00000000000035f0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_dispose()@@GLIBCXX_3.4.21
+                0x0000000000003600                std::ostream::operator<<(unsigned int)@@GLIBCXX_3.4
+                0x0000000000003610                std::time_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::put(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, tm const*, char const*, char const*) const@@GLIBCXX_3.4
+                0x0000000000003620                std::locale::~locale()@@GLIBCXX_3.4
+                0x0000000000003630                __cxa_rethrow@@CXXABI_1.3
+                0x0000000000003640                std::basic_ofstream<char, std::char_traits<char> >::~basic_ofstream()@@GLIBCXX_3.4
+                0x0000000000003650                std::ostream::sentry::operator bool() const@@GLIBCXX_3.4
+                0x0000000000003660                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::insert(unsigned long, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@@GLIBCXX_3.4.21
+                0x0000000000003670                __cxa_end_catch@@CXXABI_1.3
+                0x0000000000003680                std::time_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > > const& std::use_facet<std::time_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > > >(std::locale const&)@@GLIBCXX_3.4
+                0x0000000000003690                std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream()@@GLIBCXX_3.4
+                0x00000000000036a0                _Unwind_Resume@@GCC_3.0
+                0x00000000000036b0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@@GLIBCXX_3.4.21
+                0x00000000000036c0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::append(char const*)@@GLIBCXX_3.4.21
+                0x00000000000036d0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::append(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@@GLIBCXX_3.4.21
+                0x00000000000036e0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_capacity(unsigned long)@@GLIBCXX_3.4.21
+                0x00000000000036f0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator[](unsigned long)@@GLIBCXX_3.4.21
+
+.text           0x0000000000003700     0x2f58
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000003700       0x26 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000003700                _start
+ .text          0x0000000000003726        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o
+ *fill*         0x0000000000003726        0xa 
+ .text          0x0000000000003730       0xb9 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+ *fill*         0x00000000000037e9        0x1 
+ .text          0x00000000000037ea      0x45f Adaptive_Crusie_Control.o
+                0x00000000000037ea                Adaptive_Cruise_Control::Adaptive_Cruise_Control(Speed_Sensor*, Radar_Sensor*, Temperature_Sensor*)
+                0x00000000000037ea                Adaptive_Cruise_Control::Adaptive_Cruise_Control(Speed_Sensor*, Radar_Sensor*, Temperature_Sensor*)
+                0x000000000000383a                Adaptive_Cruise_Control::~Adaptive_Cruise_Control()
+                0x000000000000383a                Adaptive_Cruise_Control::~Adaptive_Cruise_Control()
+                0x000000000000384a                Adaptive_Cruise_Control::cruiseControl()
+ .text._ZSt23__is_constant_evaluatedv
+                0x0000000000003c49        0xf Adaptive_Crusie_Control.o
+                0x0000000000003c49                std::__is_constant_evaluated()
+ .text._ZNSt11char_traitsIcE6lengthEPKc
+                0x0000000000003c58       0x36 Adaptive_Crusie_Control.o
+                0x0000000000003c58                std::char_traits<char>::length(char const*)
+ .text._ZN9__gnu_cxx11char_traitsIcE6lengthEPKc
+                0x0000000000003c8e       0x6d Adaptive_Crusie_Control.o
+                0x0000000000003c8e                __gnu_cxx::char_traits<char>::length(char const*)
+ *fill*         0x0000000000003cfb        0x1 
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderD2Ev
+                0x0000000000003cfc       0x28 Adaptive_Crusie_Control.o
+                0x0000000000003cfc                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_Alloc_hider::~_Alloc_hider()
+                0x0000000000003cfc                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_Alloc_hider::~_Alloc_hider()
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_
+                0x0000000000003d24       0xa8 Adaptive_Crusie_Control.o
+                0x0000000000003d24                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+                0x0000000000003d24                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+ .text._ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_
+                0x0000000000003dcc       0x25 Adaptive_Crusie_Control.o
+                0x0000000000003dcc                __gnu_cxx::char_traits<char>::eq(char const&, char const&)
+ *fill*         0x0000000000003df1        0x1 
+ .text._ZNSt15__new_allocatorIcED2Ev
+                0x0000000000003df2        0xf Adaptive_Crusie_Control.o
+                0x0000000000003df2                std::__new_allocator<char>::~__new_allocator()
+                0x0000000000003df2                std::__new_allocator<char>::~__new_allocator()
+ *fill*         0x0000000000003e01        0x1 
+ .text._ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardC2EPS4_
+                0x0000000000003e02       0x1e Adaptive_Crusie_Control.o
+                0x0000000000003e02                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::_Guard(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)
+                0x0000000000003e02                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::_Guard(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)
+ .text._ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardD2Ev
+                0x0000000000003e20       0x2e Adaptive_Crusie_Control.o
+                0x0000000000003e20                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::~_Guard()
+                0x0000000000003e20                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::~_Guard()
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag
+                0x0000000000003e4e      0x119 Adaptive_Crusie_Control.o
+                0x0000000000003e4e                void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+ *fill*         0x0000000000003f67        0x1 
+ .text          0x0000000000003f68      0x109 Battery_Sensor.o
+                0x0000000000003f68                Battery_Sensor::Battery_Sensor()
+                0x0000000000003f68                Battery_Sensor::Battery_Sensor()
+                0x0000000000003fac                Battery_Sensor::~Battery_Sensor()
+                0x0000000000003fac                Battery_Sensor::~Battery_Sensor()
+                0x0000000000003fda                Battery_Sensor::getValue() const
+                0x0000000000003ff0                Battery_Sensor::update()
+                0x000000000000405c                Battery_Sensor::getBatteryTemp() const
+ *fill*         0x0000000000004071        0x1 
+ .text._ZN6SensorC2Ev
+                0x0000000000004072       0x1d Battery_Sensor.o
+                0x0000000000004072                Sensor::Sensor()
+                0x0000000000004072                Sensor::Sensor()
+ *fill*         0x000000000000408f        0x1 
+ .text._ZN6SensorD2Ev
+                0x0000000000004090       0x1d Battery_Sensor.o
+                0x0000000000004090                Sensor::~Sensor()
+                0x0000000000004090                Sensor::~Sensor()
+ *fill*         0x00000000000040ad        0x1 
+ .text          0x00000000000040ae      0x61b Diagnostics.o
+                0x00000000000040ae                Diagnostics::Diagnostics(Speed_Sensor*, Radar_Sensor*, Temperature_Sensor*, Battery_Sensor*)
+                0x00000000000040ae                Diagnostics::Diagnostics(Speed_Sensor*, Radar_Sensor*, Temperature_Sensor*, Battery_Sensor*)
+                0x000000000000410e                Diagnostics::~Diagnostics()
+                0x000000000000410e                Diagnostics::~Diagnostics()
+                0x000000000000411e                Diagnostics::runDiagnostics()
+                0x000000000000427a                Diagnostics::checkSpeed()
+                0x000000000000438e                Diagnostics::checkRadar()
+                0x00000000000044a2                Diagnostics::checkTemperature()
+                0x00000000000045b6                Diagnostics::checkBattery()
+ *fill*         0x00000000000046c9        0x1 
+ .text          0x00000000000046ca      0x2f6 logger.o
+                0x00000000000046ca                Logger::Logger()
+                0x00000000000046ca                Logger::Logger()
+                0x0000000000004750                Logger::~Logger()
+                0x0000000000004750                Logger::~Logger()
+                0x0000000000004796                Logger::getInstance()
+                0x000000000000480e                Logger::log(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, LogLevel, OutputDestination)
+ .text._ZStorSt12_Ios_IostateS_
+                0x00000000000049c0       0x16 logger.o
+                0x00000000000049c0                std::operator|(std::_Ios_Iostate, std::_Ios_Iostate)
+ .text._ZStoRRSt12_Ios_IostateS_
+                0x00000000000049d6       0x31 logger.o
+                0x00000000000049d6                std::operator|=(std::_Ios_Iostate&, std::_Ios_Iostate)
+ *fill*         0x0000000000004a07        0x1 
+ .text._ZNKSt8ios_base6getlocEv
+                0x0000000000004a08       0x34 logger.o
+                0x0000000000004a08                std::ios_base::getloc() const
+ .text._ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv
+                0x0000000000004a3c       0x15 logger.o
+                0x0000000000004a3c                std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const
+ .text._ZNSt6chrono3_V212system_clock9to_time_tERKNS_10time_pointIS1_NS_8durationIlSt5ratioILl1ELl1000000000EEEEEE
+                0x0000000000004a51       0x61 logger.o
+                0x0000000000004a51                std::chrono::_V2::system_clock::to_time_t(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&)
+ .text._ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC1IlvEERKT_
+                0x0000000000004ab2       0x21 logger.o
+                0x0000000000004ab2                std::chrono::duration<long, std::ratio<1l, 1l> >::duration<long, void>(long const&)
+ *fill*         0x0000000000004ad3        0x1 
+ .text._ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv
+                0x0000000000004ad4       0x15 logger.o
+                0x0000000000004ad4                std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const
+ .text._ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1EEEElS2_ILl1ELl1000000000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
+                0x0000000000004ae9       0x1e logger.o
+                0x0000000000004ae9                std::enable_if<std::chrono::__is_duration<std::chrono::duration<long, std::ratio<1l, 1l> > >::value, std::chrono::duration<long, std::ratio<1l, 1l> > >::type std::chrono::duration_cast<std::chrono::duration<long, std::ratio<1l, 1l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+ *fill*         0x0000000000004b07        0x1 
+ .text._ZNKSt6chrono8durationIlSt5ratioILl1ELl1EEE5countEv
+                0x0000000000004b08       0x15 logger.o
+                0x0000000000004b08                std::chrono::duration<long, std::ratio<1l, 1l> >::count() const
+ .text._ZSt8put_timeIcESt9_Put_timeIT_EPK2tmPKS1_
+                0x0000000000004b1d       0x1a logger.o
+                0x0000000000004b1d                std::_Put_time<char> std::put_time<char>(tm const*, char const*)
+ .text._ZStlsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_St9_Put_timeIS3_E
+                0x0000000000004b37      0x32d logger.o
+                0x0000000000004b37                std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::_Put_time<char>)
+ .text._ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1EEEES2_ILl1ELl1000000000EElLb1ELb0EE6__castIlS5_EES4_RKNS1_IT_T0_EE
+                0x0000000000004e64       0x80 logger.o
+                0x0000000000004e64                std::chrono::duration<long, std::ratio<1l, 1l> > std::chrono::__duration_cast_impl<std::chrono::duration<long, std::ratio<1l, 1l> >, std::ratio<1l, 1000000000l>, long, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+ .text._ZNSt19ostreambuf_iteratorIcSt11char_traitsIcEEC2EPSt15basic_streambufIcS1_E
+                0x0000000000004ee4       0x32 logger.o
+                0x0000000000004ee4                std::ostreambuf_iterator<char, std::char_traits<char> >::ostreambuf_iterator(std::basic_streambuf<char, std::char_traits<char> >*)
+                0x0000000000004ee4                std::ostreambuf_iterator<char, std::char_traits<char> >::ostreambuf_iterator(std::basic_streambuf<char, std::char_traits<char> >*)
+ .text._ZNKSt19ostreambuf_iteratorIcSt11char_traitsIcEE6failedEv
+                0x0000000000004f16       0x16 logger.o
+                0x0000000000004f16                std::ostreambuf_iterator<char, std::char_traits<char> >::failed() const
+ .text          0x0000000000004f2c       0xe4 main.o
+                0x0000000000004f2c                main
+ .text._ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC1IlvEERKT_
+                0x0000000000005010       0x21 main.o
+                0x0000000000005010                std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&)
+ .text._ZNSt6chrono15duration_valuesIlE4zeroEv
+                0x0000000000005031        0xf main.o
+                0x0000000000005031                std::chrono::duration_values<long>::zero()
+ .text._ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC2IivEERKT_
+                0x0000000000005040       0x23 main.o
+                0x0000000000005040                std::chrono::duration<long, std::ratio<1l, 1l> >::duration<int, void>(int const&)
+                0x0000000000005040                std::chrono::duration<long, std::ratio<1l, 1l> >::duration<int, void>(int const&)
+ .text._ZNSt11this_thread9sleep_forIlSt5ratioILl1ELl1EEEEvRKNSt6chrono8durationIT_T0_EE
+                0x0000000000005063       0xe8 main.o
+                0x0000000000005063                void std::this_thread::sleep_for<long, std::ratio<1l, 1l> >(std::chrono::duration<long, std::ratio<1l, 1l> > const&)
+ .text._ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS2_ILl1ELl1EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
+                0x000000000000514b       0x1e main.o
+                0x000000000000514b                std::enable_if<std::chrono::__is_duration<std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::value, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::duration_cast<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, long, std::ratio<1l, 1l> >(std::chrono::duration<long, std::ratio<1l, 1l> > const&)
+ .text._ZNSt6chrono8durationIlSt5ratioILl1ELl1EEE4zeroEv
+                0x0000000000005169       0x51 main.o
+                0x0000000000005169                std::chrono::duration<long, std::ratio<1l, 1l> >::zero()
+ .text._ZNSt6chronoleIlSt5ratioILl1ELl1EElS2_EEbRKNS_8durationIT_T0_EERKNS3_IT1_T2_EE
+                0x00000000000051ba       0x2c main.o
+                0x00000000000051ba                bool std::chrono::operator<=<long, std::ratio<1l, 1l>, long, std::ratio<1l, 1l> >(std::chrono::duration<long, std::ratio<1l, 1l> > const&, std::chrono::duration<long, std::ratio<1l, 1l> > const&)
+ .text._ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1EEEElS3_EENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES7_E4typeERKNS1_IT0_T1_EE
+                0x00000000000051e6       0x15 main.o
+                0x00000000000051e6                std::enable_if<std::chrono::__is_duration<std::chrono::duration<long, std::ratio<1l, 1l> > >::value, std::chrono::duration<long, std::ratio<1l, 1l> > >::type std::chrono::duration_cast<std::chrono::duration<long, std::ratio<1l, 1l> >, long, std::ratio<1l, 1l> >(std::chrono::duration<long, std::ratio<1l, 1l> > const&)
+ .text._ZNSt6chronomiIlSt5ratioILl1ELl1EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_
+                0x00000000000051fb       0x90 main.o
+                0x00000000000051fb                std::common_type<std::chrono::duration<long, std::ratio<1l, 1l> >, std::chrono::duration<long, std::ratio<1l, 1l> > >::type std::chrono::operator-<long, std::ratio<1l, 1l>, long, std::ratio<1l, 1l> >(std::chrono::duration<long, std::ratio<1l, 1l> > const&, std::chrono::duration<long, std::ratio<1l, 1l> > const&)
+ .text._ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000000EEEES2_ILl1000000000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1EEEES4_RKNS1_IT_T0_EE
+                0x000000000000528b       0x63 main.o
+                0x000000000000528b                std::chrono::duration<long, std::ratio<1l, 1000000000l> > std::chrono::__duration_cast_impl<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::ratio<1000000000l, 1l>, long, false, true>::__cast<long, std::ratio<1l, 1l> >(std::chrono::duration<long, std::ratio<1l, 1l> > const&)
+ .text._ZNSt6chronoltIlSt5ratioILl1ELl1EElS2_EEbRKNS_8durationIT_T0_EERKNS3_IT1_T2_EE
+                0x00000000000052ee       0x75 main.o
+                0x00000000000052ee                bool std::chrono::operator< <long, std::ratio<1l, 1l>, long, std::ratio<1l, 1l> >(std::chrono::duration<long, std::ratio<1l, 1l> > const&, std::chrono::duration<long, std::ratio<1l, 1l> > const&)
+ *fill*         0x0000000000005363        0x1 
+ .text          0x0000000000005364       0xc7 Radar_Sensor.o
+                0x0000000000005364                Radar_Sensor::Radar_Sensor()
+                0x0000000000005364                Radar_Sensor::Radar_Sensor()
+                0x000000000000539c                Radar_Sensor::~Radar_Sensor()
+                0x000000000000539c                Radar_Sensor::~Radar_Sensor()
+                0x00000000000053ca                Radar_Sensor::getValue() const
+                0x00000000000053e0                Radar_Sensor::update()
+ *fill*         0x000000000000542b        0x1 
+ .text          0x000000000000542c       0xdc Speed_Sensor.o
+                0x000000000000542c                Speed_Sensor::Speed_Sensor()
+                0x000000000000542c                Speed_Sensor::Speed_Sensor()
+                0x0000000000005464                Speed_Sensor::~Speed_Sensor()
+                0x0000000000005464                Speed_Sensor::~Speed_Sensor()
+                0x0000000000005492                Speed_Sensor::getValue() const
+                0x00000000000054a8                Speed_Sensor::update()
+                0x00000000000054ec                Speed_Sensor::controlSpeed(unsigned int)
+ .text          0x0000000000005508       0xba Temperature_Sensor.o
+                0x0000000000005508                Temperature_Sensor::Temperature_Sensor()
+                0x0000000000005508                Temperature_Sensor::Temperature_Sensor()
+                0x0000000000005540                Temperature_Sensor::~Temperature_Sensor()
+                0x0000000000005540                Temperature_Sensor::~Temperature_Sensor()
+                0x000000000000556e                Temperature_Sensor::getValue() const
+                0x0000000000005584                Temperature_Sensor::update()
+ .text          0x00000000000055c2      0xa54 Vehicle.o
+                0x00000000000055c2                Vehicle::Vehicle()
+                0x00000000000055c2                Vehicle::Vehicle()
+                0x00000000000057e0                Vehicle::~Vehicle()
+                0x00000000000057e0                Vehicle::~Vehicle()
+                0x000000000000587a                Vehicle::updateSensors()
+                0x0000000000005c50                Vehicle::displayDashboard()
+                0x0000000000005efc                Vehicle::runPerformanceDiagnostics()
+                0x0000000000005f20                Vehicle::controlVehicle()
+ .text._ZNSt7__cxx119to_stringEj
+                0x0000000000006016       0xb3 Vehicle.o
+                0x0000000000006016                std::__cxx11::to_string(unsigned int)
+ .text._ZNSt8__detail14__to_chars_lenIjEEjT_i
+                0x00000000000060c9       0x8c Vehicle.o
+                0x00000000000060c9                unsigned int std::__detail::__to_chars_len<unsigned int>(unsigned int, int)
+ *fill*         0x0000000000006155        0x1 
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEmcRKS3_
+                0x0000000000006156       0x80 Vehicle.o
+                0x0000000000006156                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&)
+                0x0000000000006156                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&)
+ .text._ZNSt8__detail18__to_chars_10_implIjEEvPcjT_
+                0x00000000000061d6      0x2ef Vehicle.o
+                0x00000000000061d6                void std::__detail::__to_chars_10_impl<unsigned int>(char*, unsigned int, unsigned int)
+ .text._ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_OS8_
+                0x00000000000064c5       0x4d Vehicle.o
+                0x00000000000064c5                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+ .text._ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEOS8_PKS5_
+                0x0000000000006512       0x4b Vehicle.o
+                0x0000000000006512                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*)
+ .text._ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEOS8_S9_
+                0x000000000000655d       0xe9 Vehicle.o
+                0x000000000000655d                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+ .text._ZSt4moveIRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEONSt16remove_referenceIT_E4typeEOS8_
+                0x0000000000006646       0x12 Vehicle.o
+                0x0000000000006646                std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+ .text          0x0000000000006658        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o
+ .text          0x0000000000006658        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+ *(.gnu.warning)
+
+.fini           0x0000000000006658        0xd
+ *(SORT_NONE(.fini))
+ .fini          0x0000000000006658        0x8 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o
+                0x0000000000006658                _fini
+ .fini          0x0000000000006660        0x5 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x0000000000007000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+                0x0000000000007000                . = SEGMENT_START ("rodata-segment", (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1))))
+
+.rodata         0x0000000000007000      0x588
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x0000000000007000        0x4 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000007000                _IO_stdin_used
+ *fill*         0x0000000000007004        0x4 
+ .rodata        0x0000000000007008      0x1a8 Adaptive_Crusie_Control.o
+ .rodata        0x00000000000071b0        0x7 Battery_Sensor.o
+ *fill*         0x00000000000071b7        0x9 
+ .rodata._ZTS14Battery_Sensor
+                0x00000000000071c0       0x11 Battery_Sensor.o
+                0x00000000000071c0                typeinfo name for Battery_Sensor
+ *fill*         0x00000000000071d1        0x7 
+ .rodata._ZTS6Sensor
+                0x00000000000071d8        0x8 Battery_Sensor.o
+                0x00000000000071d8                typeinfo name for Sensor
+ .rodata        0x00000000000071e0      0x120 Diagnostics.o
+ .rodata        0x0000000000007300       0x67 logger.o
+ *fill*         0x0000000000007367        0x1 
+ .rodata        0x0000000000007368       0x1e main.o
+ *fill*         0x0000000000007386        0x2 
+ .rodata        0x0000000000007388        0xb Radar_Sensor.o
+ *fill*         0x0000000000007393        0x5 
+ .rodata._ZTS12Radar_Sensor
+                0x0000000000007398        0xf Radar_Sensor.o
+                0x0000000000007398                typeinfo name for Radar_Sensor
+ *fill*         0x00000000000073a7        0x1 
+ .rodata        0x00000000000073a8        0x7 Speed_Sensor.o
+ *fill*         0x00000000000073af        0x1 
+ .rodata._ZTS12Speed_Sensor
+                0x00000000000073b0        0xf Speed_Sensor.o
+                0x00000000000073b0                typeinfo name for Speed_Sensor
+ *fill*         0x00000000000073bf        0x1 
+ .rodata        0x00000000000073c0        0xb Temperature_Sensor.o
+ *fill*         0x00000000000073cb        0x5 
+ .rodata._ZTS18Temperature_Sensor
+                0x00000000000073d0       0x15 Temperature_Sensor.o
+                0x00000000000073d0                typeinfo name for Temperature_Sensor
+ *fill*         0x00000000000073e5        0x3 
+ .rodata        0x00000000000073e8      0x1a0 Vehicle.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000007588      0x2cc
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000007588      0x2cc /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000007588                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000000007858      0xbe4
+ *(.eh_frame)
+ .eh_frame      0x0000000000007858       0x30 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x2c (size before relaxing)
+ *fill*         0x0000000000007888        0x0 
+ .eh_frame      0x0000000000007888       0x28 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x00000000000078b0       0x18 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x00000000000078c8       0x18 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x00000000000078e0      0x1d8 Adaptive_Crusie_Control.o
+                                        0x1f0 (size before relaxing)
+ .eh_frame      0x0000000000007ab8       0xe0 Battery_Sensor.o
+                                         0xf8 (size before relaxing)
+ .eh_frame      0x0000000000007b98      0x108 Diagnostics.o
+                                        0x290 (size before relaxing)
+ .eh_frame      0x0000000000007ca0      0x278 logger.o
+                                        0x330 (size before relaxing)
+ .eh_frame      0x0000000000007f18      0x188 main.o
+                                        0x220 (size before relaxing)
+ .eh_frame      0x00000000000080a0       0x80 Radar_Sensor.o
+                                         0xd8 (size before relaxing)
+ .eh_frame      0x0000000000008120       0xa0 Speed_Sensor.o
+                                         0xf8 (size before relaxing)
+ .eh_frame      0x00000000000081c0       0x80 Temperature_Sensor.o
+                                         0xd8 (size before relaxing)
+ .eh_frame      0x0000000000008240      0x1f8 Vehicle.o
+                                        0x380 (size before relaxing)
+ .eh_frame      0x0000000000008438        0x4 /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o
+ *(.eh_frame.*)
+
+.sframe         0x000000000000843c        0x0
+ *(.sframe)
+ .sframe        0x000000000000843c        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .sframe        0x000000000000843c        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ *(.sframe.*)
+
+.gcc_except_table
+                0x000000000000843c      0x245
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table
+                0x000000000000843c       0x5f Adaptive_Crusie_Control.o
+ .gcc_except_table
+                0x000000000000849b       0x8b Diagnostics.o
+ .gcc_except_table._ZNSt6chrono3_V212system_clock9to_time_tERKNS_10time_pointIS1_NS_8durationIlSt5ratioILl1ELl1000000000EEEEEE
+                0x0000000000008526        0x4 logger.o
+ *fill*         0x000000000000852a        0x2 
+ .gcc_except_table
+                0x000000000000852c       0x68 logger.o
+ .gcc_except_table
+                0x0000000000008594       0x12 main.o
+ .gcc_except_table._ZNSt7__cxx119to_stringEj
+                0x00000000000085a6        0x4 Vehicle.o
+ .gcc_except_table
+                0x00000000000085aa       0xd7 Vehicle.o
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x0000000000009ad8                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.sframe
+ *(.sframe)
+ *(.sframe.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata          0x0000000000009ad8        0x0
+                [!provide]                        PROVIDE (__tdata_start = .)
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000009ad8        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000009ad8        0x8
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000009ad8        0x8 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000009ae0        0x8
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000009ae0        0x8 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x0000000000009ae8      0x110
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local._ZTV14Battery_Sensor
+                0x0000000000009ae8       0x20 Battery_Sensor.o
+                0x0000000000009ae8                vtable for Battery_Sensor
+ .data.rel.ro.local._ZTV12Radar_Sensor
+                0x0000000000009b08       0x20 Radar_Sensor.o
+                0x0000000000009b08                vtable for Radar_Sensor
+ .data.rel.ro.local._ZTV12Speed_Sensor
+                0x0000000000009b28       0x20 Speed_Sensor.o
+                0x0000000000009b28                vtable for Speed_Sensor
+ .data.rel.ro.local._ZTV18Temperature_Sensor
+                0x0000000000009b48       0x20 Temperature_Sensor.o
+                0x0000000000009b48                vtable for Temperature_Sensor
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000009b68        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .data.rel.ro._ZTV6Sensor
+                0x0000000000009b68       0x20 Battery_Sensor.o
+                0x0000000000009b68                vtable for Sensor
+ .data.rel.ro._ZTI14Battery_Sensor
+                0x0000000000009b88       0x18 Battery_Sensor.o
+                0x0000000000009b88                typeinfo for Battery_Sensor
+ .data.rel.ro._ZTI6Sensor
+                0x0000000000009ba0       0x10 Battery_Sensor.o
+                0x0000000000009ba0                typeinfo for Sensor
+ .data.rel.ro._ZTI12Radar_Sensor
+                0x0000000000009bb0       0x18 Radar_Sensor.o
+                0x0000000000009bb0                typeinfo for Radar_Sensor
+ .data.rel.ro._ZTI12Speed_Sensor
+                0x0000000000009bc8       0x18 Speed_Sensor.o
+                0x0000000000009bc8                typeinfo for Speed_Sensor
+ .data.rel.ro._ZTI18Temperature_Sensor
+                0x0000000000009be0       0x18 Temperature_Sensor.o
+                0x0000000000009be0                typeinfo for Temperature_Sensor
+
+.dynamic        0x0000000000009bf8      0x210
+ *(.dynamic)
+ .dynamic       0x0000000000009bf8      0x210 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000009bf8                _DYNAMIC
+
+.got            0x0000000000009e08      0x1f8
+ *(.got.plt)
+ .got.plt       0x0000000000009e08      0x1c8 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000009e08                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ *(.got)
+ .got           0x0000000000009fd0       0x30 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ *(.igot)
+                0x000000000000a000                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.data           0x000000000000a000       0x20
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000000a000        0x4 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                0x000000000000a000                data_start
+                0x000000000000a000                __data_start
+ .data          0x000000000000a004        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o
+ .data          0x000000000000a004        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+ *fill*         0x000000000000a004        0x4 
+ .data.rel.local
+                0x000000000000a008        0x8 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+                0x000000000000a008                __dso_handle
+ .data          0x000000000000a010        0x0 Adaptive_Crusie_Control.o
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x000000000000a010        0x8 Adaptive_Crusie_Control.o
+                0x000000000000a010                DW.ref.__gxx_personality_v0
+ .data          0x000000000000a018        0x0 Battery_Sensor.o
+ .data          0x000000000000a018        0x0 Diagnostics.o
+ .data          0x000000000000a018        0x0 logger.o
+ .data.rel.local.DW.ref._ZTIN10__cxxabiv115__forced_unwindE
+                0x000000000000a018        0x8 logger.o
+                0x000000000000a018                DW.ref._ZTIN10__cxxabiv115__forced_unwindE
+ .data          0x000000000000a020        0x0 main.o
+ .data          0x000000000000a020        0x0 Radar_Sensor.o
+ .data          0x000000000000a020        0x0 Speed_Sensor.o
+ .data          0x000000000000a020        0x0 Temperature_Sensor.o
+ .data          0x000000000000a020        0x0 Vehicle.o
+ .data          0x000000000000a020        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o
+ .data          0x000000000000a020        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+
+.tm_clone_table
+                0x000000000000a020        0x0
+ .tm_clone_table
+                0x000000000000a020        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+ .tm_clone_table
+                0x000000000000a020        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o
+
+.data1
+ *(.data1)
+                0x000000000000a020                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x000000000000a020                . = ALIGN (ALIGNOF (NEXT_SECTION))
+                0x000000000000a040                __bss_start = .
+
+.bss            0x000000000000a040      0x240
+ *(.dynbss)
+ *fill*         0x000000000000a040        0x0 
+ .dynbss        0x000000000000a040      0x230 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+                0x000000000000a040                std::cout@@GLIBCXX_3.4
+                0x000000000000a160                std::cerr@@GLIBCXX_3.4
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000a270        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o
+ .bss           0x000000000000a270        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o
+ .bss           0x000000000000a270        0x1 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+ .bss           0x000000000000a271        0x0 Adaptive_Crusie_Control.o
+ .bss           0x000000000000a271        0x0 Battery_Sensor.o
+ .bss           0x000000000000a271        0x0 Diagnostics.o
+ *fill*         0x000000000000a271        0x7 
+ .bss           0x000000000000a278        0x8 logger.o
+                0x000000000000a278                Logger::instance
+ .bss           0x000000000000a280        0x0 main.o
+ .bss           0x000000000000a280        0x0 Radar_Sensor.o
+ .bss           0x000000000000a280        0x0 Speed_Sensor.o
+ .bss           0x000000000000a280        0x0 Temperature_Sensor.o
+ .bss           0x000000000000a280        0x0 Vehicle.o
+ .bss           0x000000000000a280        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o
+ .bss           0x000000000000a280        0x0 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+ *(COMMON)
+                0x000000000000a280                . = ALIGN ((. != 0x0)?0x8:0x1)
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x000000000000a280                . = ALIGN (0x8)
+                0x000000000000a280                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x000000000000c280        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x000000000000c280                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x000000000000c280                . = ALIGN (0x8)
+                0x000000000000a280                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x000000000000c280                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2b
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o
+                                         0x2c (size before relaxing)
+ .comment       0x000000000000002b       0x2c Adaptive_Crusie_Control.o
+ .comment       0x000000000000002b       0x2c Battery_Sensor.o
+ .comment       0x000000000000002b       0x2c Diagnostics.o
+ .comment       0x000000000000002b       0x2c logger.o
+ .comment       0x000000000000002b       0x2c main.o
+ .comment       0x000000000000002b       0x2c Radar_Sensor.o
+ .comment       0x000000000000002b       0x2c Speed_Sensor.o
+ .comment       0x000000000000002b       0x2c Temperature_Sensor.o
+ .comment       0x000000000000002b       0x2c Vehicle.o
+ .comment       0x000000000000002b       0x2c /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(vehicle_system_and_diagnostics.exe elf64-x86-64)
