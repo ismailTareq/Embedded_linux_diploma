@@ -1,4 +1,4 @@
-# Embedded_linux2024_diploma
+# Embedded_linux
 ## content:
 ---
 ## C++
