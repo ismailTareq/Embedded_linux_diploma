@@ -1,4 +1,5 @@
 ## content:
 ---
-## C++
-![gitHub](https://github.com/ismailTareq/Embedded_linux2024_diploma/blob/main/00.Content/C%2B%2B1.png)
+## Python 
+![gitHub](https://github.com/ismailTareq/Embedded_linux_diploma/blob/main/00.Embinux/Python/s1.png)
+![gitHub](https://github.com/ismailTareq/Embedded_linux_diploma/blob/main/00.Embinux/Python/s2.png)
